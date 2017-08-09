@@ -1,3 +1,4 @@
+body {
 	background-color: #1879B1;
 }
 h1 ,h2, h3, p, a{
@@ -30,30 +31,9 @@ p{
 
 }
 
-#btn1{
-	border:0px;
-	border-radius: 15px;
-	background-image:url(../assets/Icon10.png);
-	background-repeat: no-repeat; 
-}
-#btn2{
-	border:0px;
-	border-radius: 15px;
-	background-image:url(../assets/Icon9.png);
-	background-repeat: no-repeat; 
-}
-#btn3{
-	border:0px;
-	border-radius: 15px;
-	background-image:url(../assets/Icon-76Qu.png);
-	background-repeat: no-repeat; 
-
-}
-#btn4{
-	border:0px;
-	border-radius: 15px;
-	background-image:url(../assets/Icon-76I.png);
-	background-repeat: no-repeat; 
+figure.btn img {
+  border:0px;
+  border-radius: 15px;
 }
 
 
@@ -121,6 +101,8 @@ a#ios10-label {
     border-top-left-radius: 40px;
 }
 
+
+
 @media only screen 
 and (min-device-width : 414px) 
 and (max-device-width : 780px){ 
@@ -134,5 +116,40 @@ and (max-device-width : 780px){
     font-size: 16;
 	}
 }
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+
+  .imgHome{
+    margin-top:20px;
+  }
+
+  #javiera.callout{
+    margin-top: 0vh;
+  }
+  figure.btn img {
+    border:0px;
+    border-radius: 10px;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
 
 
