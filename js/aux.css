@@ -1,0 +1,36 @@
+/*
+.orbit-caption {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    /* padding: 10px; */
+    position: absolute;
+    bottom: 50%;
+    /* vertical-align: top; */
+    /* width: 30%; */
+    /* margin-bottom: 0; */
+    /* margin-left: 40px; */
+    padding: 1rem;
+    background-color: transparent; 
+    color: #1779ba;
+    font-size: 30px;
+    text-align: center;
+}
+*/
+
+nav.orbit-bullets{
+  top:-50px; 
+}
+
+.orbit-bullets button.is-active {
+    background-color: $orbit-bulletcoloractive ;
+}
+.orbit-bullets button {
+    background-color: $orbit-bulletcolor ;
+    opacity: 0.5;
+}
+
+<?php include TEMPLATEPATH . "/carrusel.php" ?> 
+  <div class="columns hide-for-large small-12" id="menuListHeaderPhp" >
+            <?php include TEMPLATEPATH . "/nav_Mobile.php" ?>
+        </div>
